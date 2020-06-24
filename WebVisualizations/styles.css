@@ -1,0 +1,285 @@
+
+body{
+    background-color: rgb(218, 218, 218); 
+}
+
+.navbar {
+    max-height: 60px; 
+	font-size: 20px; 
+	background-color: white; 
+}
+
+.navbar-brand{
+	font-size: xx-large;
+	color: white !important; 
+	margin-left: 100px; 
+	padding: inherit; 
+	font-weight: bold; 
+    background-color: #38ab87;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	max-height: 60px;
+}
+
+.dropdown-item{
+    color: black; 
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
+    background-color:lightgrey; 
+}
+
+.nav-link:hover{
+    background-color:lightgrey;
+}
+
+.nav-link {
+	margin-right: 30px;
+}
+
+.figure {
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-right: 0px;
+	padding: 10px 30px 5px;
+	color: black;
+	background-color: white;
+	height: 750px;
+}
+
+.container {
+	margin: 20px 50px 100px;
+	padding: 5px 30px 5px;
+	background-color: white;
+	height: 90%;
+	min-width: 1000px;
+}
+
+#visual {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 90px;
+	padding: 10px 30px 40px;
+	color: black;
+	background-color: white;
+	height: 620px;
+}
+
+h1, h2, h3 {
+	color: #38ab87;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+	padding-left: 4px;
+    font-size: 250%;
+    margin: 30px 40px 30px;
+}
+
+h2 {
+	padding-left: 4px;
+    font-size: 200%;
+	padding-top: 30px; 
+	margin-top: 20px;
+}
+
+h3 {
+	text-align: center;
+	font-size: x-large;
+	margin-bottom:0px;
+	margin-top: 15px;
+}
+
+.compare {
+	margin-top: 10px !important;
+}
+
+.aside-images {
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+
+}
+
+.images {
+	width: 75%;
+	height: 80%;
+	max-height: 280px;
+	margin-left: 35px;
+	margin-bottom: 0px;
+}
+
+.max-temp-fig {
+	width: 80%;
+	display: block;
+	margin: 0px;
+}
+
+.main-img {
+	float: left;
+	width: 30%;
+	height: 40%;
+	margin:20px 20px 20px;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+}
+
+p{
+	color: #657974;
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 50px 30px 20px;
+}
+
+
+.active, .aside-images:hover{
+    border-color:#38ab87;
+    border-style: solid; 
+}
+
+footer{
+	background-color: #505251; 
+    border-top-style: solid; 
+    border-top-width: 4px; 
+    border-top-color: #38ab87;
+    color: white; 
+    min-height: 50px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    padding-top: 10px; 
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+.solid {
+	visibility: hidden;
+}
+
+#main {
+	margin-top: 120px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 10px 30px 40px;
+	color: black;
+	background-color: white;
+	height: 900px;
+	/* min-width: 650px; */
+	
+}
+
+.table th{
+	border-top-color: white !important;
+}
+
+th, td {
+	border-bottom: 1px solid #ddd;
+	
+  }
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+/* Media Queries */
+@media (max-width: 991px){
+
+#main {
+	height:1600px;
+}
+
+.solid {
+	visibility: visible;
+}
+
+.navbar-expand-lg {
+	background-color: #38ab87 !important;
+	margin: inherit; 
+}
+.navbar {
+	max-height: none; 
+	margin: inherit; 
+	background-color: white;
+	max-height: 60px !important;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.navbar-brand {
+	padding-top: 0px !important; 
+	padding-bottom: 0px;
+	margin-top: 0px !important; 
+
+}
+
+.navbar div {
+	margin: inherit; 
+    background-color: white !important;  
+}
+
+button {
+	margin-right: 30px; 
+	color: white !important;
+}
+
+.aside-images {
+	width: 25%;
+	height: 25%;
+	margin-top: 10px;
+}
+
+.nav-item {
+	background-color: white;
+	padding-left: 30px;
+}
+
+.dropdown-menu {
+	border-style: none; 
+	color: grey; 
+}
+
+.figure {
+	margin-left:20px;
+	height: 600px;
+	margin-top: 20px;
+	width: 800px;
+}
+
+.max-temp-fig {
+	max-width: 70%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#visual {
+	float: left;
+	height: 300px;
+	margin-bottom: 200px;
+	margin-left:20px;
+	margin-top: 60px;
+	width: 800px;
+}
+
+.images {
+	visibility: visible;
+	width: 90%;
+	height: 80%;
+	max-width: 600px;
+}
+
+.compare {
+	min-width: 700px;
+}
+
+} 
+
+
+
