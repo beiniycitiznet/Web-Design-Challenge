@@ -1,10 +1,8 @@
-# Web Design Homework - Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard - Latitude Analysis Dashboard with Attitude
 
 Data is more powerful when we share it with others! 
 
 ![Images/landingResize.png](Images/landingResize.png)
-
-## Latitude - Latitude Analysis Dashboard with Attitude
 
 Create a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
 
@@ -62,7 +60,6 @@ Large screen:
 Small screen:
 ![Landing page small screen](Images/landing-sm.png)
 ￼
-
 #### Comparisons page
 
 Large screen:
